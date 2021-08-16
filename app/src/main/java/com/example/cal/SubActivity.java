@@ -27,6 +27,7 @@ public class SubActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sub);
+
         initWidgets();
         checkForEditNote();
         initDatePicker();
